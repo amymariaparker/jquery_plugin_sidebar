@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $('.show_patient_detial').aside({
-    target:'.patient_detail',
+  $('.show_aside').aside({
+    target:'.asidebar',
       closebutton:'.closeaside',
       callback:function(){
         console.log($(this).data('id'));
